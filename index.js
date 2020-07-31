@@ -71,7 +71,7 @@ for (let i = 0; i < kuliner.length; i++){
     }
 }
 console.log('<------------------------------------------------------------>');
-console.log('<---------------------- Nested Object ------------------------------->');
+console.log('<---------------------- Nested Object ----------------------->');
 
 const charcter = [{
     name : "fauzi",
@@ -93,3 +93,48 @@ const charcter = [{
 }]
 
 console.log(charcter);
+
+console.log('<------------------------------------------------------------>');
+console.log('<---------------------- Function ---------------------------->');
+
+const mySelf =(angka1, angka2)=>{
+// Code
+    return angka1 + angka2;
+    
+// Return
+}
+// memanggil function
+const sum = mySelf(2, 3);
+console.log(sum);
+
+
+
+
+const introduce = function (){
+// Code
+    console.log("Halo");
+    console.log("Nama Saya Adalah Ninja Ken");
+// return
+}
+// manggil function
+introduce();
+
+
+const number1 = 103;
+const number2 = 72;
+const number3 = 189;
+
+// Ketik sebuah function getMax untuk mendapatkan nilai maksimum
+const getMax = (a, b, c)=>{
+  let max = a;
+  if (b > max){
+    max = b;
+  }else if (c > max){
+    max =  c;
+  }else {
+    console.log("Not Works!!");
+  }
+  return max;
+}
+const max = getMax(number1, number2, number3);
+console.log(`Nilai Maksimum adalah ${max}`);
