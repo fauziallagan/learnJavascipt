@@ -107,9 +107,6 @@ const mySelf =(angka1, angka2)=>{
 const sum = mySelf(2, 3);
 console.log(sum);
 
-
-
-
 const introduce = function (){
 // Code
     console.log("Halo");
@@ -138,3 +135,71 @@ const getMax = (a, b, c)=>{
 }
 const max = getMax(number1, number2, number3);
 console.log(`Nilai Maksimum adalah ${max}`);
+
+console.log('<------------------------------------------------------------>');
+console.log('<------------------- Object dalam function ------------------>');
+
+const furniture = {
+  name : "fauzi",
+  kursi: (name)=>{
+    console.log(`Kursi ini berjenis ${name}`);
+  
+  },
+  bangku:(name, size)=>{
+    console.log(`Bangku ini berjenis ${name}, berukuran ${size} inc`);
+  }
+ 
+}
+console.log(furniture.name);
+furniture.kursi("Kayu");
+furniture.bangku("Besi", 20);
+
+console.log('<------------------------------------------------------------>');
+console.log('<-------------------------- Class --------------------------->');
+
+class Login{
+  constructor (name, age){
+    console.log("It's Works!!")
+    this.name = name;
+    this.age = age;
+  }
+  menyapa(){
+    console.log(`menyapa Success ${this.name}`);
+  }
+}
+
+// Mencetak
+const login = new Login("fauzi", 20);
+
+login.menyapa();
+console.log(login.name);
+console.log(login.age);
+
+class User extends Login {
+  
+}
+const user = new User("Human");
+user.menyapa();
+
+class Hewan{
+  constructor(nama, jenis, kaki, habbit){
+    this.jenis = jenis;
+    this.kaki = kaki;
+    this.habbit = habbit;
+    this.nama = nama;
+  }
+  hewanDarat(){
+    console.log(`${this.nama} Berjenis ${this.jenis}, dan berkaki ${this.kaki}, serta hidup di ${this.habbit}, Masuk ke Kategori ${this.makanan}`);
+    
+  }
+}
+class Dog extends Hewan {
+    constructor(name, jenis, kaki, habbit, makanan){
+      super(name, jenis, kaki, habbit, makanan);
+      this.makanan = makanan;
+    }
+  
+}
+const dog = new Dog("Anjing", "Chihuahua", 4, "Darat", "Karnivora");
+
+dog.hewanDarat();
