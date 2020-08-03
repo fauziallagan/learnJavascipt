@@ -52,7 +52,7 @@ const kuliner = [
     {name : "Seblak"}
 ]
 
-console.log('<------------------------------------------------------------>');
+console.log(kuliner);('<------------------------------------------------------------>');
 console.log('<---------------------- LOOP FOR OBJECT Dan Array ----------->');
 for (let i = 0; i < kuliner.length; i++){
 
@@ -203,3 +203,6 @@ class Dog extends Hewan {
 const dog = new Dog("Anjing", "Chihuahua", 4, "Darat", "Karnivora");
 
 dog.hewanDarat();
+
+// Nan mean : not a number
+console.log(33 %10);

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke;
+}
+
+
+.content-judul{
+    background-color: chartreuse;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+h1{
+    border: 2px solid green;
+    text-align: center;  
+    
+}
+
+.container{
+    width: 100%;
+    /* border: 2px solid wheat; */
+}
+.container1{
+    width: 100%;
+}
+.js {
+    font-size: 2em;
+    line-height: 5em;
+    background-size: 10em;
+    background-position: center;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-image: url("/js.png");
+    /* background-size: 5em; */
+    background-color: rgb(214, 214, 107);
+    width: 50%;
+    float: right;
+    transition: 0.1s;
+    
+}
+.js{
+    object-position: center;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    /* background-color: rgba(78, 67, 67, 0.808); */
+}
+
+.php{
+    object-position: center;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    background-color: rgba(78, 67, 67, 0.808);
+}
+.Ruby{
+    object-position: center;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    background-color: rgba(78, 67, 67, 0.808);
+}
+.py{
+    object-position: center;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    background-color: rgba(78, 67, 67, 0.808);
+
+}
+
+
+.php{
+    font-size: 2em;
+    line-height: 5em;
+    color: white;
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/php.svg);
+    background-size: 10em;
+    background-color: rgb(60, 60, 143);
+    width: 50%;
+    float: left;
+}
+.Ruby{
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 12em; */
+    background-image: url(/rubyC.png);
+    background-color: rgb(194, 59, 59);
+    text-align: left;
+    color:black;
+    font-size: 2em;
+    line-height: 5em;
+    width: 50%;
+    float: left;
+}
+.py{
+    background-position: center;
+    line-height: 5em;
+    font-size: 2em;
+    text-align: right;
+    line-height: 5em;
+    padding:auto;
+    background-size: 5em;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-image: url(./py.png);
+    background-color: rgb(236, 188, 65);
+    width: 50%;
+    float: right;
+}
