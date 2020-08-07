@@ -37,7 +37,7 @@ h1{
     background-position: center;
     text-align: right;
     background-repeat: no-repeat;
-    background-image: url("/js.png");
+    background-image: url("/css/asset/js.png");
     /* background-size: 5em; */
     background-color: rgb(214, 214, 107);
     width: 50%;
@@ -80,7 +80,7 @@ h1{
     text-align: left;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/php.svg);
+    background-image: url("/css/asset/php.svg");
     background-size: 10em;
     background-color: rgb(60, 60, 143);
     width: 50%;
@@ -90,7 +90,7 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: 12em; */
-    background-image: url(/rubyC.png);
+    background-image: url("/css/asset/rubyC.png");
     background-color: rgb(194, 59, 59);
     text-align: left;
     color:black;
@@ -109,7 +109,7 @@ h1{
     background-size: 5em;
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-image: url(./py.png);
+    background-image: url("/css/asset/py.png");
     background-color: rgb(236, 188, 65);
     width: 50%;
     float: right;

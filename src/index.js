@@ -206,3 +206,16 @@ dog.hewanDarat();
 
 // Nan mean : not a number
 console.log(33 %10);
+
+
+const perhitunga = function(n){
+  return n * n
+};
+const perhitungan = (n=20)  => {
+  return n * n
+}
+function hasil(){
+  alert("Congratulations!!");
+}
+hasil();
+console.log(perhitungan());
