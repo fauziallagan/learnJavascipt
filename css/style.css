@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 body{
     background-color:whitesmoke;
@@ -23,7 +23,7 @@ h1{
     
 }
 
-.container{
+.container2{
     width: 100%;
     /* border: 2px solid wheat; */
 }
@@ -113,4 +113,13 @@ h1{
     background-color: rgb(236, 188, 65);
     width: 50%;
     float: right;
+}
+/* Boostrap V5 */
+.container{
+    width: 100%;
+}
+.d-block{ 
+    margin: auto;
+    width: 20%;
+    justify-content: center;
 }
